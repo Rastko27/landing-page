@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container.container-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.navigation{
+    padding: 15px 0px;
+    background-color: #1f2937;
+}
+
+.logo{
+    height: 75px;
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+}
+
+.navlink{
+    color: #e5e7eb;
+}
