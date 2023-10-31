@@ -12,6 +12,10 @@ h1{
     margin: 0;
 }
 
+h2{
+    margin: 0;
+}
+
 p{
     margin: 0;
 }
@@ -100,4 +104,133 @@ button{
     border-radius: 10px;
     background-color: #3882f6;
     color: #f9faf8;
+}
+/* -----Hero-section----- */
+
+/* -----Services-section----- */
+.second-section{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.services-heading{
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.services-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.service-single{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    color: #1f2937;
+}
+
+.service-image{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #3882f6;
+    margin-bottom: 20px;
+}
+
+.bathroom{
+    object-fit: fill;
+}
+/* -----Services-section----- */
+
+/* -----Quote section----- */
+.quote-section{
+    padding: 100px 50px;
+    background-color: #e5e7eb;
+}
+
+.quote-container{
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.quote{
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: #1f2937;
+}
+
+.quote-author{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #1f2937;
+}
+/* -----Quote section----- */
+
+/* -----Last section----- */
+.last-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.blue-wrapper{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.blue-text-big{
+    font-size: 24px;
+    color: white;
+    letter-spacing: -0.5px;
+    margin-bottom: 5px;
+}
+
+.blue-text-small{
+    font-size: 16px;
+    color: #e5e7eb;
+    letter-spacing: -0.3px;
+}
+
+.cta-2{
+    border: 2px solid white;
+}
+/* -----Last section----- */
+
+footer{
+    padding: 50px;
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    color: white;
 }
